@@ -1,0 +1,58 @@
+body {
+    font-family: Roboto, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    background-color: #3882f6;
+}
+
+header {
+    background-color: #1f2937;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.section1 {
+    background-color: #1f2937;
+}
+
+.section1 .left-side h1 {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.section1 .left-side p {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.section2 h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+
+.section3 {
+    background-color: #e5e7eb;
+}
+
+.section3 .quote {
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.blue-container {
+    background-color: #3882f6;
+}
+
+footer {
+    background-color: #1f2937;
+}
