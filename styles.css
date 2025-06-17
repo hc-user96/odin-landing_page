@@ -1,8 +1,11 @@
 body {
+    padding: 0xp;
+    margin: 0px;
     font-family: Roboto, sans-serif;
     display: flex;
     flex-direction: column;
 }
+
 
 button {
     background-color: #3882f6;
@@ -10,6 +13,14 @@ button {
 
 header {
     background-color: #1f2937;
+    display: flex;
+    padding: 0px 128px;
+}
+
+header * {
+    list-style: none;
+    text-decoration: none;
+    display: flex;
 }
 
 main {
@@ -19,6 +30,8 @@ main {
 
 .section1 {
     background-color: #1f2937;
+    padding: 0px 128px;
+    display: flex;
 }
 
 .section1 .left-side h1 {
@@ -32,6 +45,10 @@ main {
     color: #e5e7eb;
 }
 
+.section2 {
+    padding: 0px 128px;
+}
+
 .section2 h2 {
     font-size: 36px;
     font-weight: 900;
@@ -40,6 +57,7 @@ main {
 
 .section3 {
     background-color: #e5e7eb;
+    padding: 0px 128px;
 }
 
 .section3 .quote {
@@ -49,10 +67,15 @@ main {
     color: #1f2937;
 }
 
+.section4 {
+    padding: 0px 128px;
+}
+
 .blue-container {
     background-color: #3882f6;
 }
 
 footer {
     background-color: #1f2937;
+    padding: 0px 128px;
 }
