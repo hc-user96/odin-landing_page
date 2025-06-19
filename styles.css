@@ -62,18 +62,19 @@ main {
 }
 
 .section2 {
-    padding: 0px 128px;
+    padding: 0px 256px;
 }
 
 .section2 h2 {
     font-size: 36px;
     font-weight: 900;
     color: #1f2937;
+    text-align: center;
 }
 
 .section3 {
     background-color: #e5e7eb;
-    padding: 0px 128px;
+    padding: 0px 256px;
 }
 
 .section3 .quote {
@@ -84,16 +85,26 @@ main {
 }
 
 .section4 {
-    padding: 0px 128px;
+    padding: 64px 128px 64px 128px;
     color: #f9faf8;
 }
 
 .blue-container {
     background-color: #3882f6;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.blue-container button {
+    border-style: solid;
+    border-color: #f9faf8;
+    margin: 2em
 }
 
 footer {
     background-color: #1f2937;
     color: #e5e7eb;
     padding: 0px 128px;
+    text-align: center;
 }
