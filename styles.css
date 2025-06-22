@@ -105,6 +105,12 @@ main {
     color: #1f2937;
 }
 
+.section3 .quoted {
+    text-align: end;
+    font-weight: 900;
+    font-size: x-large;
+}
+
 .section4 {
     padding: 64px 128px;
     color: #f9faf8;
