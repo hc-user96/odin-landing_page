@@ -18,7 +18,7 @@ header {
     background-color: #1f2937;
     display: flex;
     justify-content: space-between;
-    padding: 0px 128px 64px 128px;
+    padding: 0px 128px;
 }
 
 header * {
@@ -61,6 +61,9 @@ main {
 
 .section2 {
     padding: 64px 256px;
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
 }
 
 .section2 h2 {
@@ -112,6 +115,16 @@ main {
     border-radius: 4px;
     display: flex;
     justify-content: space-around;
+}
+
+.blue-container div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.blue-container div p {
+    margin: 0px;
 }
 
 .blue-container button {
