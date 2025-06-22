@@ -22,7 +22,7 @@ header {
     background-color: #1f2937;
     display: flex;
     justify-content: space-between;
-    padding: 0px 128px;
+    padding: 0vw 8vw;
 }
 
 header * {
@@ -47,7 +47,7 @@ main {
 
 .section1 {
     background-color: #1f2937;
-    padding: 64px 128px;
+    padding: 4vw 8vw;
     display: flex;
     flex-wrap: wrap;
     gap: 64px;
@@ -69,10 +69,10 @@ main {
 }
 
 .section2 {
-    padding: 64px 256px;
+    padding: 4vw 16vw;
     display: flex;
     flex-direction: column;
-    gap: 64px;
+    gap: 1vw;
 }
 
 .section2 h2 {
@@ -104,7 +104,7 @@ main {
 
 .section3 {
     background-color: #e5e7eb;
-    padding: 64px 256px;
+    padding: 4vw 16vw;
 }
 
 .section3 .quote {
@@ -121,7 +121,7 @@ main {
 }
 
 .section4 {
-    padding: 64px 128px;
+    padding: 4vw 8vw;
     color: #f9faf8;
 }
 
@@ -140,7 +140,7 @@ main {
 }
 
 .blue-container div p {
-    margin: 0px;
+    margin: 0vw;
 }
 
 .blue-container button {
@@ -152,6 +152,6 @@ main {
 footer {
     background-color: #1f2937;
     color: #e5e7eb;
-    padding: 0px 128px;
+    padding: 0vw 8vw;
     text-align: center;
 }
