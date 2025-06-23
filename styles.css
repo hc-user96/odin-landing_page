@@ -68,6 +68,10 @@ main {
     color: #e5e7eb;
 }
 
+.section1 img {
+    max-width: 50rem;
+}
+
 .section2 {
     padding: 4vw 16vw;
     display: flex;
